@@ -1,0 +1,10 @@
+Code for the real network clustering section of the upcoming paper
+
+(Dave Hemprich-Bennett, hemprich.bennett@gmail.com, @hammerheadbat) 25/05/18
+
+First, the metadata for the two island networks was generated using the script 'generating_metadata.R'
+
+The files were simplified using the script 'array_clumping.R', initiated on QMUL's HPCC using the script 'in_array_clumping.sh'
+The 'true' network values were calculated using the script 'both_original_networklevel.R'
+
+The resulting data were then processed using the large and unwieldy script 'island_outputs_2.R'
